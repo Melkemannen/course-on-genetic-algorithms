@@ -59,6 +59,17 @@ Discuss the key concepts in Neat in pairs.
 - Initialize population
 - Fitness
 
+Population Initialization:
+
+    Representation of individuals (neural network genomes).
+    Initial parameters: number of inputs, outputs, population size.
+
+Fitness Function:
+
+    Role of fitness in evolution.
+    Designing effective fitness functions for NEAT (e.g., reward specific behaviors).
+    Examples: solving a maze, balancing a pole, playing a game.
+
 ## CODE 
 
 ## Mutation
@@ -66,13 +77,26 @@ Discuss the key concepts in Neat in pairs.
 
 ## CODE Mutation (10 min)
 
-## Speciation
-- How it works, and implementation details
+## Speciation and Crossover
+Speciation in NEAT:
 
-## CODE Speciation
+    Preventing premature convergence.
+    Speciation mechanics: sharing, distance calculation.
 
-## Crossover
-- Explain crossover in detail
+Selection and Crossover:
 
-## CODE Crossover, put it all together and train your agents. 
+    How NEAT combines genomes while preserving innovation.
+    Key challenges: matching genes, handling compatibility.
 
+## CODE Speciation and Crossover, put it all together and train your agents. 
+
+## Experimentation:
+    Test NEAT on another problem (e.g., Flappy Bird simulation or a simple game environment like OpenAI Gym).
+
+## 7. Wrap-Up and Q&A (10-15 minutes)
+
+### Recap of key concepts:
+        Genetic Algorithms: population, fitness, selection, crossover, mutation.
+        NEAT: genome evolution, speciation, and innovation.
+
+## Anounce winner of competition
